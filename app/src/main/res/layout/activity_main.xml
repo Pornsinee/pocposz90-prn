@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@android:drawable/button_onoff_indicator_on"
+            android:scrollbarTrackVertical="@drawable/ic_launcher_background">
+
+            <TextView
+                android:id="@+id/tv_SoftwareInfo"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+
+                android:fontFamily="@font/kanit_bold"
+
+                android:text="Software Info : โปรแกรมบันทึกข้อมูลผู้มาติดต่อ"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_LicenseInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+
+                android:fontFamily="@font/kanit_extralight_italic"
+
+                android:text="License Info : ลิขสิทธ์โปรแกรมของ บจก.รักษาความปลอดภัย พี.อาร์.เอ็น"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bt_readThaiID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+
+        android:fontFamily="@font/kanit_medium"
+        android:text="อ่านบัตรประชาชน"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/bt_readDrivingLicence"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+
+        android:fontFamily="@font/kanit_medium"
+        android:text="อ่านบัตรใบอนุญาตขับรถ"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:backgroundTint="#079CEC" />
+
+    <Button
+        android:id="@+id/bt_printSlip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+
+        android:fontFamily="@font/kanit_medium"
+        android:text="พิมพ์เอกสาร"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:backgroundTint="#4B4C4A" />
+
+    <Button
+        android:id="@+id/bt_Exit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+
+        android:fontFamily="@font/kanit_medium"
+        android:text="ออกจากโปรแกรม"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:backgroundTint="#7E0A0A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="8"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Result"
+                    android:layout_width="match_parent"
+                    android:layout_height="183dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/kanit_medium"
+                    android:textColor="@android:color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/bt_CancelDrivingLicence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#000000"
+                    android:fontFamily="@font/kanit_medium"
+                    android:text="ข้อมูลใบขับขี่"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F8F1F1"
+                    android:textSize="24sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/lo_iv_photo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1.5"
+            android:background="#FDFDFD"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_Cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_Photo"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="top" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

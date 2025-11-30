@@ -1,0 +1,13 @@
+com.zcs.zcssdkdemo.app-support-compat-28.0.0-0 C:\Users\Ilove\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\res
+com.zcs.zcssdkdemo.app-constraintlayout-1.1.3-1 C:\Users\Ilove\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\res
+com.zcs.zcssdkdemo.app-coordinatorlayout-28.0.0-2 C:\Users\Ilove\.gradle\caches\transforms-3\568c762957e87adb25eac94f3bddea2d\transformed\coordinatorlayout-28.0.0\res
+com.zcs.zcssdkdemo.app-AndroidThaiNationalIDCard-1.0.3-3 C:\Users\Ilove\.gradle\caches\transforms-3\bd8bf2a2aaf8df171c043105ef0fd055\transformed\AndroidThaiNationalIDCard-1.0.3\res
+com.zcs.zcssdkdemo.app-appcompat-v7-28.0.0-4 C:\Users\Ilove\.gradle\caches\transforms-3\ea5271aff2e9b4fa4c0a0cdbc7dd64f1\transformed\appcompat-v7-28.0.0\res
+com.zcs.zcssdkdemo.app-pngs-5 D:\Project-PRN\pocposz90\app\build\generated\res\pngs\debug
+com.zcs.zcssdkdemo.app-resValues-6 D:\Project-PRN\pocposz90\app\build\generated\res\resValues\debug
+com.zcs.zcssdkdemo.app-rs-7 D:\Project-PRN\pocposz90\app\build\generated\res\rs\debug
+com.zcs.zcssdkdemo.app-mergeDebugResources-8 D:\Project-PRN\pocposz90\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.zcs.zcssdkdemo.app-mergeDebugResources-9 D:\Project-PRN\pocposz90\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.zcs.zcssdkdemo.app-merged_res-10 D:\Project-PRN\pocposz90\app\build\intermediates\merged_res\debug
+com.zcs.zcssdkdemo.app-debug-11 D:\Project-PRN\pocposz90\app\src\debug\res
+com.zcs.zcssdkdemo.app-main-12 D:\Project-PRN\pocposz90\app\src\main\res
